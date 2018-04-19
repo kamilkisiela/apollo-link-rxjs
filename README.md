@@ -1,5 +1,8 @@
 # RxJS with ApolloLink
 
+[![npm version](https://badge.fury.io/js/apollo-link-rxjs.svg)](https://badge.fury.io/js/apollo-link-rxjs)
+[![CircleCI](https://circleci.com/gh/kamilkisiela/apollo-link-rxjs.svg?style=svg)](https://circleci.com/gh/kamilkisiela/apollo-link-rxjs)
+
 ## Purpose
 
 To use goods of RxJS in Apollo ecosystem
