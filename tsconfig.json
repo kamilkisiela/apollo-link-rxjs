@@ -7,7 +7,7 @@
     "sourceMap": true,
     "declaration": true,
     "rootDir": ".",
-    "outDir": "build",
+    "outDir": "dist",
     "lib": ["es6", "dom", "esnext.asynciterable"],
     "types": ["jest"],
     "noImplicitAny": true,

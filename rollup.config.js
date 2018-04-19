@@ -7,9 +7,9 @@ const globals = {
 };
 
 export default {
-  input: 'build/src/index.js',
+  input: 'dist/index.js',
   output: {
-    file: 'build/bundle.umd.js',
+    file: 'dist/bundle.umd.js',
     format: 'umd',
     sourcemap: true,
     name: 'apollo.rxjs',
