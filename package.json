@@ -33,7 +33,7 @@
     "graphql": "0.13.2",
     "graphql-tag": "2.9.1",
     "jest": "22.4.3",
-    "rimraf": "^2.6.2",
+    "rimraf": "2.6.2",
     "rollup": "0.58.1",
     "rxjs": "6.0.0-uncanny-rc.7",
     "ts-jest": "22.4.4",
