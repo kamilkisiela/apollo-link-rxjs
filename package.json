@@ -9,11 +9,14 @@
   "jsnext:main": "./build/src/index.js",
   "typings": "./build/src/index.d.ts",
   "scripts": {
+    "prebuild": "npm run clean",
     "build": "tsc -p tsconfig.build.json",
+    "clean": "rimraf build/",
     "bundle": "rollup -c",
     "test": "npm run test-only",
     "test-only": "jest --config jest.config.js",
-    "postbuild": "npm run bundle"
+    "postbuild": "npm run bundle",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -30,6 +33,7 @@
     "graphql": "0.13.2",
     "graphql-tag": "2.9.1",
     "jest": "22.4.3",
+    "rimraf": "^2.6.2",
     "rollup": "0.58.1",
     "rxjs": "6.0.0-uncanny-rc.7",
     "ts-jest": "22.4.4",
