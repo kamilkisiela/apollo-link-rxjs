@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamilkisiela/apollo-link-rxjs.git"
+    "url": "kamilkisiela/apollo-link-rxjs"
   },
   "keywords": ["apollo", "graphql", "apollo-link", "rxjs"],
   "peerDependencies": {
