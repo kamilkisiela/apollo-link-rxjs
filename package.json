@@ -11,12 +11,13 @@
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc -p tsconfig.build.json",
-    "clean": "rimraf dist/",
+    "clean": "rimraf dist/ && rimraf npm/",
     "bundle": "rollup -c",
     "test": "npm run test-only",
     "test-only": "jest --config jest.config.js",
     "postbuild": "npm run bundle",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "deploy": "./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
