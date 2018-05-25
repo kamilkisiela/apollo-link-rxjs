@@ -33,7 +33,7 @@
     "apollo-link": "1.2.2",
     "graphql": "0.13.2",
     "graphql-tag": "2.9.2",
-    "jest": "22.4.4",
+    "jest": "23.0.0",
     "rimraf": "2.6.2",
     "rollup": "0.59.3",
     "rxjs": "6.2.0",
