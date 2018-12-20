@@ -35,7 +35,7 @@
     "graphql-tag": "2.10.0",
     "jest": "23.6.0",
     "rimraf": "2.6.2",
-    "rollup": "0.68.0",
+    "rollup": "0.68.1",
     "rxjs": "6.3.3",
     "ts-jest": "22.4.6",
     "typescript": "3.2.2"
