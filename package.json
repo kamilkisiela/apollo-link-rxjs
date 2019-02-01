@@ -38,6 +38,6 @@
     "rollup": "0.68.2",
     "rxjs": "6.4.0",
     "ts-jest": "22.4.6",
-    "typescript": "3.2.4"
+    "typescript": "3.3.1"
   }
 }
